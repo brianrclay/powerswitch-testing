@@ -26,6 +26,7 @@ $(document).ready(function(){
     $('.clear-results').click(function(){
         $('.search-result').addClass('fade-out');
         $('.popular-employers').removeClass('fade-out');
+        $('.search-bar input').val("");
     })
 })
 
