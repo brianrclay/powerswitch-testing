@@ -50,6 +50,10 @@ $shadow-top: 0px -1px 3px rgba(87, 102, 117, 0.2);
 $shadow-left: -1px 0px 3px rgba(87, 102, 117, 0.2);
 $shadow-right: 1px 0px 3px rgba(87, 102, 117, 0.2);
 
+body{
+  background-color: $gray-100;
+}
+
 .modal{
   .modal-body{
     padding: 24px;

@@ -1,3 +1,7 @@
+body {
+  background-color: #F7F9FC;
+}
+
 .modal .modal-body {
   padding: 24px;
 }
