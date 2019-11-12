@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sandbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../css/reset.css" rel="stylesheet">
+    <!-- <link href="../css/bulma.css" rel="stylesheet"> -->
+    <link href="../css/kyper.css" rel="stylesheet">
+    <link href="../css/helpers.css" rel="stylesheet">
+    <link href="../custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="modal open scrolling">
+        <div class="modal-header">
+            <h3>Power Switch</h3>
+            <div class="close">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8243 5.17574C15.0586 5.41005 15.0586 5.78995 14.8243 6.02426L10.8487 10L14.8243 13.9757C15.0586 14.2101 15.0586 14.5899 14.8243 14.8243C14.5899 15.0586 14.2101 15.0586 13.9757 14.8243L10 10.8487L6.02426 14.8243C5.78995 15.0586 5.41005 15.0586 5.17574 14.8243C4.94142 14.5899 4.94142 14.2101 5.17574 13.9757L9.15125 10L5.17574 6.02426C4.94142 5.78995 4.94142 5.41005 5.17574 5.17574C5.41005 4.94142 5.78995 4.94142 6.02426 5.17574L10 9.15125L13.9757 5.17574C14.2101 4.94142 14.5899 4.94142 14.8243 5.17574Z" fill="#19212C"/>
+                </svg>                        
+            </div>
+        </div>
+        <div class="modal-body">
+            <p class="bold m-b-8">Find your employer</p>
+            <div class="input-wrapper search-bar">
+                <input type="text" class="w-100" placeholder="Search employer">
+                <div class="search-icon">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.93333 0C10.7625 0 13.8667 3.10416 13.8667 6.93333C13.8667 8.6558 13.2386 10.2316 12.1989 11.4441L15.8438 15.0895C16.0521 15.2978 16.0521 15.6355 15.8438 15.8438C15.6355 16.0521 15.2978 16.0521 15.0895 15.8438L11.4441 12.1989C10.2316 13.2386 8.6558 13.8667 6.93333 13.8667C3.10416 13.8667 0 10.7625 0 6.93333C0 3.10416 3.10416 0 6.93333 0ZM6.93333 1.06667C3.69326 1.06667 1.06667 3.69326 1.06667 6.93333C1.06667 10.1734 3.69326 12.8 6.93333 12.8C10.1734 12.8 12.8 10.1734 12.8 6.93333C12.8 3.69326 10.1734 1.06667 6.93333 1.06667Z" fill="#454F5E"/>
+                    </svg>                                                       
+                </div>
+            </div>
+            <div class="employers-wrapper">
+                <div class="popular-employers">
+                    <p class="m-t-24 m-b-8 color-primary">Most Popular</p>
+                    <div class="employer-list">
+                        <div class="employer flex ai-center jc-between">
+                            <div class="left flex ai-center">
+                                <div class="employer-icon bg-img m-r-12" style="background-image: url('../assets/employer-logos/Walmart.png'); width: 40px; height: 40px;"></div>
+                                <div class="name-wrapper">
+                                    <div class="name">Walmart</div>
+                                    <div class="id color-secondary">ID: 12-87-8181</div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="check-wrapper flex ai-center jc-center">
+                                    <div class="checkbox">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6515 5.1415C11.8495 4.94901 12.166 4.95347 12.3585 5.15146C12.551 5.34945 12.5465 5.666 12.3485 5.8585L7.20568 10.8585C7.01162 11.0472 6.70266 11.0472 6.5086 10.8585L3.65146 8.08072C3.45347 7.88823 3.44901 7.57168 3.6415 7.37368C3.834 7.17569 4.15055 7.17123 4.34854 7.36373L6.85714 9.80265L11.6515 5.1415Z" fill="#2F73DA"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="employer flex ai-center jc-between">
+                            <div class="left flex ai-center">
+                                <div class="employer-icon bg-img m-r-12" style="background-image: url('../assets/employer-logos/Amazon.png'); width: 40px; height: 40px;"></div>
+                                <div class="name-wrapper">
+                                    <div class="name">Amazon</div>
+                                    <div class="id color-secondary">ID: 12-87-7651</div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="check-wrapper flex ai-center jc-center">
+                                    <div class="checkbox">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6515 5.1415C11.8495 4.94901 12.166 4.95347 12.3585 5.15146C12.551 5.34945 12.5465 5.666 12.3485 5.8585L7.20568 10.8585C7.01162 11.0472 6.70266 11.0472 6.5086 10.8585L3.65146 8.08072C3.45347 7.88823 3.44901 7.57168 3.6415 7.37368C3.834 7.17569 4.15055 7.17123 4.34854 7.36373L6.85714 9.80265L11.6515 5.1415Z" fill="#2F73DA"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="employer flex ai-center jc-between">
+                            <div class="left flex ai-center">
+                                <div class="employer-icon bg-img m-r-12" style="background-image: url('../assets/employer-logos/Home Depot.png'); width: 40px; height: 40px;"></div>
+                                <div class="name-wrapper">
+                                    <div class="name">Home Depot</div>
+                                    <div class="id color-secondary">ID: 12-87-8181</div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="check-wrapper flex ai-center jc-center">
+                                    <div class="checkbox">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6515 5.1415C11.8495 4.94901 12.166 4.95347 12.3585 5.15146C12.551 5.34945 12.5465 5.666 12.3485 5.8585L7.20568 10.8585C7.01162 11.0472 6.70266 11.0472 6.5086 10.8585L3.65146 8.08072C3.45347 7.88823 3.44901 7.57168 3.6415 7.37368C3.834 7.17569 4.15055 7.17123 4.34854 7.36373L6.85714 9.80265L11.6515 5.1415Z" fill="#2F73DA"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="employer flex ai-center jc-between">
+                            <div class="left flex ai-center">
+                                <div class="employer-icon bg-img m-r-12" style="background-image: url('../assets/employer-logos/Spotify.png'); width: 40px; height: 40px;"></div>
+                                <div class="name-wrapper">
+                                    <div class="name">Spotify</div>
+                                    <div class="id color-secondary">ID: 12-87-8181</div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="check-wrapper flex ai-center jc-center">
+                                    <div class="checkbox">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6515 5.1415C11.8495 4.94901 12.166 4.95347 12.3585 5.15146C12.551 5.34945 12.5465 5.666 12.3485 5.8585L7.20568 10.8585C7.01162 11.0472 6.70266 11.0472 6.5086 10.8585L3.65146 8.08072C3.45347 7.88823 3.44901 7.57168 3.6415 7.37368C3.834 7.17569 4.15055 7.17123 4.34854 7.36373L6.85714 9.80265L11.6515 5.1415Z" fill="#2F73DA"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-result fade-out">
+                    <div class="employer-list">
+                        <div class="employer flex ai-center jc-between">
+                            <div class="left flex ai-center">
+                                <div class="employer-icon bg-img m-r-12" style="background-image: url('../assets/employer-logos/Starbucks.png'); width: 40px; height: 40px;"></div>
+                                <div class="name-wrapper">
+                                    <div class="name">Starbucks</div>
+                                    <div class="id color-secondary">ID: 12-87-8181</div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="check-wrapper flex ai-center jc-center">
+                                    <div class="checkbox">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6515 5.1415C11.8495 4.94901 12.166 4.95347 12.3585 5.15146C12.551 5.34945 12.5465 5.666 12.3485 5.8585L7.20568 10.8585C7.01162 11.0472 6.70266 11.0472 6.5086 10.8585L3.65146 8.08072C3.45347 7.88823 3.44901 7.57168 3.6415 7.37368C3.834 7.17569 4.15055 7.17123 4.34854 7.36373L6.85714 9.80265L11.6515 5.1415Z" fill="#2F73DA"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear-results flex ai-center jc-center m-t-24">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C12.4183 0 16 3.58172 16 8C16 12.4183 12.4183 16 8 16C3.58172 16 0 12.4183 0 8C0 3.58172 3.58172 0 8 0ZM8 1.06667C4.17083 1.06667 1.06667 4.17083 1.06667 8C1.06667 11.8292 4.17083 14.9333 8 14.9333C11.8292 14.9333 14.9333 11.8292 14.9333 8C14.9333 4.17083 11.8292 1.06667 8 1.06667ZM11.8594 4.14059C12.0469 4.32804 12.0469 4.63196 11.8594 4.81941L8.679 8L11.8594 11.1806C12.0469 11.368 12.0469 11.672 11.8594 11.8594C11.672 12.0469 11.368 12.0469 11.1806 11.8594L8 8.679L4.81941 11.8594C4.63196 12.0469 4.32804 12.0469 4.14059 11.8594C3.95314 11.672 3.95314 11.368 4.14059 11.1806L7.321 8L4.14059 4.81941C3.95314 4.63196 3.95314 4.32804 4.14059 4.14059C4.32804 3.95314 4.63196 3.95314 4.81941 4.14059L8 7.321L11.1806 4.14059C11.368 3.95314 11.672 3.95314 11.8594 4.14059Z" fill="#454F5E"/>
+                        </svg>                                
+                        <span class="m-l-8 color-secondary">Clear results</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="/" class="btn transparent-btn m-r-8">Cancel</a>
+            <a href="/employer-info" class="primary-btn btn icon-btn right">
+                <span>Next</span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1464 12.8669C9.95118 12.6894 9.95118 12.4016 10.1464 12.224L14.243 8.5L0.46875 8.5C0.209866 8.5 0 8.27614 0 8C0 7.72386 0.209866 7.5 0.46875 7.5L14.243 7.5L10.1464 3.77596C9.95118 3.59845 9.95118 3.31064 10.1464 3.13313C10.3417 2.95562 10.6583 2.95562 10.8536 3.13313L15.8536 7.67859C16.0488 7.8561 16.0488 8.1439 15.8536 8.32141L10.8536 12.8669C10.6583 13.0444 10.3417 13.0444 10.1464 12.8669Z" fill="white"/>
+                </svg>                    
+            </a>
+        </div>
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="../main.js"></script>
+</body>
+
+</html>
