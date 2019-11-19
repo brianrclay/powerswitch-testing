@@ -130,5 +130,8 @@ body {
     filter: blur(5px); }
   100% {
     filter: blur(0); } }
+/* Mac custom styles */
+html, body {
+  height: 100%; }
 
 /*# sourceMappingURL=custom.css.map */
